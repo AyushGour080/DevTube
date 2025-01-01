@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev":"nodemon src/server.js",
+    "dev": "nodemon src/server.js",
     "start": "node server.js"
   },
   "keywords": [
@@ -17,5 +17,8 @@
   "license": "ISC",
   "devDependencies": {
     "nodemon": "^3.1.9"
+  },
+  "dependencies": {
+    "prettier": "^3.4.2"
   }
 }
