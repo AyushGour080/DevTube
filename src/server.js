@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 import connectDB from "./database/db.js";
 import dotenv from "dotenv";
-import app from "./app.js";
+import { app } from "./app.js";
 
 dotenv.config({
   path: "./env",
